@@ -1,2 +1,2 @@
 # cv
-[https://moonmeander47.github.io/cv/](Ссылка)
+[Ссылка](https://moonmeander47.github.io/cv/)
