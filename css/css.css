@@ -40,8 +40,6 @@
 .main.smallbox {
   display: grid;
   grid-template-columns: auto;
-  /* grid-template-rows: 200px 50px; */
-  /* grid-gap: 10px; */
 }
 
 .main.smallbox h5 {
@@ -54,6 +52,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.main.smallbox.container a {
+  color: rgb(0, 0, 0);
 }
 
 .social_network {
@@ -117,9 +119,28 @@
   grid-gap: 40px 40px;
 }
 
+.grid.git {
+  grid-template-columns: 1fr 110px;
+}
+
 .skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: auto;
   grid-gap: 100px 100px;
+}
+
+.bottom {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  background: rgb(12, 12, 12);
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+}
+
+.bottom p,a {
+  color: rgb(255, 253, 251);
+  text-decoration: none;
 }
