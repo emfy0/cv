@@ -1,3 +1,13 @@
+* ul {
+  font-size: 1.8rem;
+}
+
+@media (min-width: 550px) {
+  * ul {
+    font-size: 2.4rem;;
+  }
+}
+
 .preview {
   background: rgb(231, 231, 231);
   padding: 10px 0px;
