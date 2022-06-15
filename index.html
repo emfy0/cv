@@ -67,7 +67,7 @@
     <a class="button" href="https://github.com/emfy0">GitHub</a>
   </nav>
 
-  <div class="container nav_margin" id="skills">
+  <div class="container nav_margin">
     <div>
       <h2><strong>Егоров Павел</strong></h2>
 
@@ -77,7 +77,7 @@
     <h2>
       <strong>Навыки</strong>
     </h2>
-    <div class="skills">
+    <div class="skills" id="skills">
       <div class="skills-grid">
         <div class="wrapper verysmall">
           <img src="images/Ruby.png" alt="Иконка Ruby">
@@ -85,7 +85,7 @@
         <div class="skills text_boxes">
           <h6>
             <b>Ruby:</b>
-            Rails, websockets, turbo ,RSpec, Capybara, OOP, MVC, REST, DRY, refactoring, code style
+            Rails, websockets, turbo, RSpec, Capybara, OOP, MVC, REST, DRY, refactoring, code style
           </h6>
         </div>
         <div class="wrapper verysmall">
@@ -139,11 +139,11 @@
         <div class="skills text_boxes">
           <h6>
             <b>Другие языки:</b>
-            C, Python, Assembly
+            C, Python, Assembler
           </h6>
         </div>
       </div>
-      <div>
+      <!-- <div>
         <div class="grid git">
           <h4>
             <strong>Готовые проекты</strong>
@@ -157,84 +157,136 @@
           <a class="button button-primary" href="https://github.com/emfy0/websocket_chat">Instatalk App</a>
           <a class="button button-primary" href="https://github.com/emfy0/aes_CTR_CBC_OFB">AES implementation</a>
         </div>
-      </div>
+      </div> -->
+          <ul style="margin-top: 29px;">
+            <strong>Расположение:</strong>
+            <ul>
+              <li>Россия, Москва </li>
+            </ul>
+
+            <strong>Образование:</strong>
+              <ul>
+                <li>Специалист по защите информации<br>
+                  &nbsp &nbsp &nbspИнститут Кибернетики (РТУ МИРЭА)
+                </li>
+                <li>
+                  Интенсив
+                  <a href="https://goodprogrammer.ru">Ruby on Rails</a>
+                </li>
+              </ul>
+
+
+              <strong>Языки:</strong>
+              <ul>
+                <li>
+                  <b>Русский:</b>
+                  носитель
+                </li>
+                <li>
+                  <b>Английский:</b>
+                  advanced
+                </li>
+              </ul>
+
+
+              <strong>О себе:</strong>
+             <ul>
+              <p align="justify">Привет, меня зовут Павел. Люблю решать сложные задачи, заставляющие думать. Увлекаюсь компьютерными технологиями. В мир Ruby попал случайно, но парадигма разработки в нем сильно увлекла.</p>
+             </ul>
+
+          </ul>
     </div>
     <hr>
   </div>
-  <div class="container" id="about">
-    
-    <div class="row">
-      <div class="one-half column black_url">
+  <div class="container">
+    <h2>Приложения</h2>
+
+    <div>
+      <h3>Eventmaker</h3>
+      <hr style="margin-bottom: 20px; margin-top: 20px;">
+      <p class="text-medium" style="margin-bottom: 10px;">
+        Веб приложение для организации событий. В нем можно создавать события, подписываться на них,
+        комметировать, загружать фотографии, и задавать пинкод доступа.
+      </p>
+      <a class="button button-primary" href="https://github.com/emfy0/event_maker">GitHub</a>
+      <a class="button button-primary" href="http://emfy0.xyz">Deployment</a>
+      <h4>Стек технологий:</h4>
+      <div class="skills">
+        <ul class="text-small">
+            <strong>Backend</strong>
         <ul>
-          <li>
-            <strong>Расположение:</strong>
-            Россия, Москва
-          </li>
-          <li>
-            <strong>Образование:</strong>
-            <ul>
-              <li>Специалист по защите информации<br>
-                &nbsp &nbsp &nbspИнститут Кибернетики (РТУ МИРЭА)
-              </li>
-              <li>
-                Интенсив
-                <a href="https://goodprogrammer.ru">Ruby on Rails</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Языки:</strong>
-            <ul>
-              <li>
-                <b>Русский:</b>
-                носитель
-              </li>
-              <li>
-                <b>Английский:</b>
-                advanced
-              </li>
-            </ul>
-          </li>
+          <li>Rails 7</li>
+          <li>Yandex Cloud bucket для хранения картинок</li>
+          <li>Resque workers</li>
+          <li>Email через postfix</li>
+          <li>OAuth через VK и Yandex</li>
+          </ul>
         </ul>
-      </div>
-      <div class="one-half column">
-        <!-- <ul>
-          <li>
-            <strong>Достоинства:</strong>
-            <ul>
-              <li>
-                Желание учиться
-              </li>
-              <li>
-                Быстрое усвоение
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Интересы:</strong>
-            <ul>
-              <li>
-                Информационные технологии
-              </li>
-              <li>
-                Математика и алгоритмы
-              </li>
-              <li>
-                Power&Street lifting
-              </li>
-            </ul>
-          </li>
-        </ul> -->
+
+        <ul class="text-small">
+            <strong>Front-end</strong>
+        <ul>
+          <li>Airdatepicker</li>
+          <li>Lightbox2</li>
+          <li>Yandex карты</li>
+          </ul>
+        </ul>
+        
       </div>
     </div>
+
+    <div>
+      <h3>Askme</h3>
+      <hr style="margin-bottom: 20px; margin-top: 20px;">
+      <p class="text-medium" style="margin-bottom: 10px;">
+        Веб приложение где каждый может задать вопрос и ответить на него. У вопросов и ответов есть хэштеги. Пользовтель
+        может менять цвет хедера.
+      </p>
+      <a class="button button-primary" href="https://github.com/emfy0/askme">GitHub</a>
+      <a class="button button-primary" href="https://ask-generator.herokuapp.com/">Deployment</a>
+      <h4>Особенности:</h4>
+        <ul class="text-small">
+          <li>Собственная реализация авторизации.</li>
+          <li>Рассмотрена проблема N+1.</li>
+        </ul>
+    </div>
+
+    <div>
+      <h3>Кто хочет стать миллионером</h3>
+      <hr style="margin-bottom: 20px; margin-top: 20px;">
+      <p class="text-medium" style="margin-bottom: 10px;">
+        Реализованы все 3 типа подсказок (звонок другу, 50/50, подсказка зала).
+        Администратор может загружать новые в базу.
+      </p>
+      <a class="button button-primary" href="https://github.com/emfy0/KHSM">GitHub</a>
+      <a class="button button-primary" href="https://khsm-app.herokuapp.com/">Deployment</a>
+      <h4>Особенности:</h4>
+        <ul class="text-small">
+          <li>Приложение покрыто тестами на модели, контроллеры и фича тестами.</li>
+          <li>Реализация AJAX запроса.</li>
+        </ul>
+    </div>
+
+    <div>
+      <h3>Instatalk</h3>
+      <hr style="margin-bottom: 20px; margin-top: 20px;">
+      <p class="text-medium" style="margin-bottom: 10px;">
+        Простые чат комнаты. Реализованы как сами чат комнаты, так и показ пользователей, находящихся онлайн.
+      </p>
+      <a class="button button-primary" href="https://github.com/emfy0/websocket_chat">GitHub</a>
+      <a class="button button-primary" href="http://chat.emfy0.xyz/">Deployment</a>
+      <h4>Особенности:</h4>
+        <ul class="text-small">
+          <li>Использование Action Cable для наладки websocket.</li>
+        </ul>
+    </div>
   </div>
-  <div class="futter nav_margin">
-    <p>
-      Inspired by
-      <a href="https://goodprogrammer.ru">goodprogrammer.ru</a>
-      Special thanks to
-      <a href="https://topuzov.dev/">Edem</a>
-    </p>
+
+  <div>
+    <h3>Проекты на других языка программирования.</h3>
+    <a class="button button-primary" href="https://github.com/emfy0/aes_CTR_CBC_OFB">AES implementation</a>
+    <a class="button button-primary" href="https://github.com/emfy0/tron">Trone cli online game via framebuffer</a>
+  </div>
   </div>
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
