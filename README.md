@@ -1,2 +1,2 @@
-# cv
+# CV
 [Ссылка](https://emfy0.github.io/cv/)
